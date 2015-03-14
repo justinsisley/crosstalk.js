@@ -1,6 +1,8 @@
 # crosstalk.js
 
-crosstalk is a tiny (2kb minified) library that makes cross-domain and even cross-protocol (e.g. file:// to https://) communication extremely clean and easy.
+crosstalk.js is a tiny (2kb minified) library that makes cross-domain and even cross-protocol communication extremely clean and easy.
+
+Why use it? Maybe you distribute an HTML file that will be opened locally (from the file:// protocol), but it needs to talk to an API server. crosstalk will let you load up a frame from any domain and communicate through it with ease. The need doesn't come up often, but when it does, this will make your life very easy.
 
 ### Using crosstalk
 
