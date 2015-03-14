@@ -2,7 +2,7 @@
 
 ### Using crosstalk
 
-Using crosstalk.js is very easy. You just need to include the library in each page that your going to communicate between.
+Using crosstalk.js is very easy. You just need to include the library in each page that you're going to communicate between.
 
 In your main window, do something like this:
 
