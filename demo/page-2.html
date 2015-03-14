@@ -6,6 +6,20 @@
     </head>
     <body>
         <script src="../crosstalk.js"></script>
-        <script></script>
+        <script>
+        var channel = new Crosstalk();
+
+        channel.on('myEvent', function() {
+            console.log('page-2 myEvent callback');
+
+            channel.emit('yourEvent', {
+                myProperty: 'Great job!'
+            });
+        });
+
+        // We don't have to wait for the connection.
+        // We can start emitting events immediately.
+        channel.emit('anotherEvent');
+        </script>
     </body>
 </html>
