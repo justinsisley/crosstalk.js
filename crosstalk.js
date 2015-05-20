@@ -148,7 +148,7 @@ Crosstalk.prototype._onMessage = function(e) {
  * Crosstalk.prototype.on - listen for events and execute a callback
  *
  * @param  {String|Object} evt      A string that represents and event
- * name, or, and object that consists of keys as events names, and values
+ * name, or, an object that consists of keys as events names, and values
  * as callbacks.
  * @param  {Function} callback If a string is passed for evt, this is
  * the callback function associated with the event.
